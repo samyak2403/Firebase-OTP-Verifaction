@@ -106,7 +106,38 @@ This project demonstrates how to implement OTP (One-Time Password) verification 
      }
      ```
 
-3. **Sync your project:** After adding the dependencies, sync your project in Android Studio.
+   ##  Modify AndroidManifest.xml
+     Add the following permissions and receivers:
+    ```xml                     
+   <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+<uses-permission android:name="android.permission.READ_SMS"/>
+
+<application>
+    ...
+    <receiver
+        android:name=".OTP_Receiver"
+        android:exported="true"
+        android:permission="com.google.android.gms.auth.api.phone.permission.SEND"/>
+</application>
+ ``` 
+
+4. **Sync your project:** After adding the dependencies, sync your project in Android Studio.
+
+5. **How It Works:**
+
+1. **Enter Phone Number**
+    - Users enter their phone number into the application.
+
+2. **Send OTP**
+    - The app sends an OTP to the provided phone number via Firebase.
+
+3. **Auto-Retrieve OTP**
+    - The OTP is automatically retrieved from the SMS if the app has the necessary permissions.
+    - If automatic retrieval fails, users can manually enter the OTP.
+
+4. **Verify OTP**
+    - The entered OTP is verified with Firebase.
+    - Upon successful verification, users are authenticated.
 
 ## Implement OTP Verification
 
@@ -119,6 +150,17 @@ Follow the steps below to implement OTP verification in your Android app:
    - Allow the user to input the OTP and verify it using Firebase Authentication.
 
 For detailed code examples, refer to the official Firebase documentation or the project’s source code.
+
+**Project Structure:**
+```app
+app/
+├── src/main/java/app/my/otpverification/
+│   ├── OtpSendActivity.kt       # Handles sending OTP
+│   ├── OtpVerifyActivity.kt     # Handles OTP verification
+│   ├── OTP_Receiver.kt          # BroadcastReceiver for SMS retrieval
+│   └── MainActivity.kt          # Post-authentication main screen
+└── src/main/res/layout/         # XML layouts for activities
+ ```
 
 ## License
 
