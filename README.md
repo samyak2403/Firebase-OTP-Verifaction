@@ -30,6 +30,7 @@ Follow these steps to set up the project locally:
 ```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
+```
 
 
 # Firebase OTP Verification in Android (Kotlin)
