@@ -49,6 +49,7 @@ This project demonstrates how to implement OTP (One-Time Password) verification 
 - [Setup Firebase in Your Project](#setup-firebase-in-your-project)
 - [Add Required Dependencies](#add-required-dependencies)
 - [Implement OTP Verification](#implement-otp-verification)
+- 
 - [Project Structure](#project-structure)
 - [License](#license)
 
@@ -146,7 +147,7 @@ Follow the steps below to implement OTP verification in your Android app:
 
 For detailed code examples, refer to the official Firebase documentation or the project’s source code.
 
-**Project Structure:**
+## Project Structure:
  ```app
 app/
 ├── src/main/java/app/my/otpverification/
