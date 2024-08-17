@@ -15,11 +15,17 @@ A robust Android application that integrates Firebase for OTP (One-Time Password
   <tr>
     <td><img src="1.png" width="250px"/></td>
     <td><img src="2.png" width="250px"/></td>
+  </tr>
+  <tr>
     <td><img src="3.png" width="250px"/></td>
     <td><img src="4.png" width="250px"/></td>
-    <td><img src="5.png" width="250px"/></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="5.png" width="250px"/></td>
   </tr>
 </table>
+
+
 
 
 ## Prerequisites
