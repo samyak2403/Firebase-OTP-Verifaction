@@ -48,8 +48,7 @@ This project demonstrates how to implement OTP (One-Time Password) verification 
 - Android Studio (latest version)
 - A Firebase account
 - Basic knowledge of Kotlin and Android development
-
-- ```app
+ ```app
 app/
 ├── src/main/java/app/my/otpverification/
 │   ├── OtpSendActivity.kt       # Handles sending OTP
@@ -58,6 +57,7 @@ app/
 │   └── MainActivity.kt          # Post-authentication main screen
 └── src/main/res/layout/         # XML layouts for activities
  ```
+
 
 ## Setup Firebase in Your Project
 
