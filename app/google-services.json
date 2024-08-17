@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "751075667202",
+    "project_id": "optv-86d0a",
+    "storage_bucket": "optv-86d0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751075667202:android:24baed29845ff9975f661b",
+        "android_client_info": {
+          "package_name": "com.samyak2403.firebaseotpverifaction"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzZJgM2QWjKC8GfjBo2whxJwxsYfxLWSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
