@@ -49,21 +49,13 @@ This project demonstrates how to implement OTP (One-Time Password) verification 
 - [Setup Firebase in Your Project](#setup-firebase-in-your-project)
 - [Add Required Dependencies](#add-required-dependencies)
 - [Implement OTP Verification](#implement-otp-verification)
+- [Project Structure](#project-structure)
 - [License](#license)
 
 ## Prerequisites
 - Android Studio (latest version)
 - A Firebase account
 - Basic knowledge of Kotlin and Android development
- ```app
-app/
-├── src/main/java/app/my/otpverification/
-│   ├── OtpSendActivity.kt       # Handles sending OTP
-│   ├── OtpVerifyActivity.kt     # Handles OTP verification
-│   ├── OTP_Receiver.kt          # BroadcastReceiver for SMS retrieval
-│   └── MainActivity.kt          # Post-authentication main screen
-└── src/main/res/layout/         # XML layouts for activities
- ```
 
 
 ## Setup Firebase in Your Project
@@ -154,7 +146,16 @@ Follow the steps below to implement OTP verification in your Android app:
 
 For detailed code examples, refer to the official Firebase documentation or the project’s source code.
 
-
+**Project Structure:**
+ ```app
+app/
+├── src/main/java/app/my/otpverification/
+│   ├── OtpSendActivity.kt       # Handles sending OTP
+│   ├── OtpVerifyActivity.kt     # Handles OTP verification
+│   ├── OTP_Receiver.kt          # BroadcastReceiver for SMS retrieval
+│   └── MainActivity.kt          # Post-authentication main screen
+└── src/main/res/layout/         # XML layouts for activities
+ ```
 
 
 ## License
