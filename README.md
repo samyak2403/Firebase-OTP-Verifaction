@@ -35,8 +35,8 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+https://github.com/samyak2403/Firebase-OTP-Verifaction.git
+cd Firebase-OTP-Verifaction-repository
 ```
 
 
