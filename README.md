@@ -11,9 +11,16 @@ A robust Android application that integrates Firebase for OTP (One-Time Password
 - **Kotlin Implementation:** Entire app built using Kotlin, following best practices and clean code architecture.
 
 ## Screenshots
+<table>
+  <tr>
+    <td><img src="1.png" width="250px"/></td>
+    <td><img src="2.png" width="250px"/></td>
+    <td><img src="3.png" width="250px"/></td>
+    <td><img src="4.png" width="250px"/></td>
+    <td><img src="5.png" width="250px"/></td>
+  </tr>
+</table>
 
-![Screenshot 1](path_to_screenshot_1)
-![Screenshot 2](path_to_screenshot_2)
 
 ## Prerequisites
 
