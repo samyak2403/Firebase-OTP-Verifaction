@@ -49,7 +49,6 @@ This project demonstrates how to implement OTP (One-Time Password) verification 
 - [Setup Firebase in Your Project](#setup-firebase-in-your-project)
 - [Add Required Dependencies](#add-required-dependencies)
 - [Implement OTP Verification](#implement-otp-verification)
-- 
 - [Project Structure](#project-structure)
 - [License](#license)
 
