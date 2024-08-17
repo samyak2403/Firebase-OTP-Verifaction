@@ -140,21 +140,7 @@ app/
 
 4. **Sync your project:** After adding the dependencies, sync your project in Android Studio.
 
-5. **How It Works:**
 
-1. **Enter Phone Number**
-    - Users enter their phone number into the application.
-
-2. **Send OTP**
-    - The app sends an OTP to the provided phone number via Firebase.
-
-3. **Auto-Retrieve OTP**
-    - The OTP is automatically retrieved from the SMS if the app has the necessary permissions.
-    - If automatic retrieval fails, users can manually enter the OTP.
-
-4. **Verify OTP**
-    - The entered OTP is verified with Firebase.
-    - Upon successful verification, users are authenticated.
 
 ## Implement OTP Verification
 
